@@ -1,0 +1,43 @@
+.footerCont {
+  height: 33vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f7fa;
+}
+.secondaryFooter {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.iconsSocial {
+  font-style: normal;
+  font-weight: normal;
+
+  text-align: center;
+
+  color: #3d3c3c;
+}
+.contactUs {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #3d3c3c;
+}
+
+@media screen and (min-width: 768px) {
+  .iconsSocial {
+    font-size: 22px;
+  }
+  .secondaryFooter {
+    width: 20%;
+  }
+  .contactUs {
+    font-size: 20px;
+  }
+}

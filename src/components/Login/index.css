@@ -1,0 +1,102 @@
+.LoginMainPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 360px;
+  height: 640px;
+  padding: 20px;
+}
+.formContainer {
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.websiteLogo {
+  width: 104px;
+  height: 28px;
+  left: 1040px;
+  align-self: center;
+  margin-bottom: 40px;
+}
+
+.img2 {
+  display: none;
+}
+.label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 5px;
+
+  color: #5a7184;
+}
+.input {
+  margin-bottom: 20px;
+  height: 56px;
+  border-radius: 7px;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.btnSubmit {
+  height: 40px;
+  background: #0284c7;
+  border-radius: 8px;
+  border: 0px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.errorMsg {
+  color: red;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .websiteLogo {
+    width: 141px;
+    height: 48px;
+  }
+  .img1 {
+    display: none;
+  }
+  .img2 {
+    display: block;
+    width: 780px;
+    height: 100vh;
+  }
+  .LoginMainPage {
+    flex-direction: row;
+    height: 100vh;
+    background: #f8fafc;
+  }
+
+  .form {
+    margin-left: 72px;
+    margin-right: 60px;
+    width: 499px;
+    height: 484px;
+  }
+  .imgContLogin {
+    width: 780px;
+  }
+  .btnSubmit {
+    height: 56px;
+  }
+}

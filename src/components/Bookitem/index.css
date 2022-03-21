@@ -1,0 +1,71 @@
+.coverpic {
+  min-width: 133px;
+  height: 155px;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+.link1 {
+  width: 50%;
+  text-decoration: none;
+}
+.compOfBookitem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.listOfbookItem {
+  display: flex;
+  padding-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+}
+.headOfBookiTEM {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #334155;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+.authorsNameinBookItem {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #475569;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+.avgRating {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  margin: 0px;
+  padding-right: 8px;
+
+  color: #475569;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+.statusOFBookItem {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+
+  color: #475569;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+.spanOfBookItem {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #0284c7;
+}
+.compOfRating {
+  display: flex;
+}
+.starIcon {
+  color: #fbbf24;
+  font-size: 16px;
+  margin-right: 8px;
+}

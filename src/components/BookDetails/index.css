@@ -1,0 +1,139 @@
+.mainPageOfDetails {
+  background-color: #f5f7fa;
+  padding-top: 25px;
+  padding: 20px;
+}
+.imgOfDetails {
+  width: 235px;
+  height: 274px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+.headOfDetails {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #334155;
+  margin: 0px;
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
+.paraOfDetails1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  color: #475569;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+.avgRating1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #475569;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+.statusOFBookItem1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #475569;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+.spanOfBookItem1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #0284c7;
+}
+.firstComp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.starIcon1 {
+  color: #fbbf24;
+  font-size: 21px;
+  margin-right: 8px;
+  margin-left: 5px;
+}
+.headOfAuthor {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #334155;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.authorsInfo {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #475569;
+  margin-top: 8px;
+}
+@media screen and (min-width: 768px) {
+  .mainOfDetailsPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 1140px;
+    height: 726px;
+
+    box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.08),
+      0px 1px 2px rgba(96, 97, 112, 0.16);
+    border-radius: 16px;
+    padding: 60px;
+  }
+  .mainPageOfDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .firstComp {
+    display: flex;
+    flex-direction: row;
+  }
+  .imgOfDetails {
+    margin-right: 43px;
+  }
+  .headOfDetails {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+  .paraOfDetails1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  .avgRating1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  .starIcon1 {
+    font-size: 25px;
+    margin-top: 3px;
+    margin-left: 16px;
+  }
+  .statusOFBookItem1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  .spanOfBookItem1 {
+    font-size: 24px;
+  }
+  .hori {
+    color: black;
+    margin-top: 40px;
+    width: 100%;
+  }
+  .headOfAuthor {
+    font-size: 24px;
+  }
+  .authorsInfo {
+    font-size: 16px;
+  }
+}
